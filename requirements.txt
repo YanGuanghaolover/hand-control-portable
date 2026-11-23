@@ -1,0 +1,15 @@
+# 手势控制项目依赖
+# 安装：
+#   python -m venv .venv
+#   .venv\Scripts\activate
+#   pip install -r requirements.txt
+#
+# 注意：mediapipe 在清华/阿里云镜像上都没有 wheel（会报 No matching distribution），
+# 而且 pip 全局配置里的 extra-index-url 还可能直接抛 IncompleteRead。
+# 最稳的装法是完全隔离配置、只走官方源：
+#   pip install --isolated --index-url https://pypi.org/simple -r requirements.txt
+
+mediapipe>=1.1.1,<2.0
+opencv-contrib-python>=5.0.0.93,<6.0
+numpy>=2.5.3,<3.0
+pillow>=12.3.0,<14.0
