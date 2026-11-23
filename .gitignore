@@ -1,0 +1,15 @@
+# Local environments and Python caches
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+
+# Generated user data
+calibration/
+drawings/
+*.png.tmp
+
+# Local tooling and operating-system files
+.workbuddy/
+.DS_Store
+Thumbs.db
