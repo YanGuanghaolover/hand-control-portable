@@ -32,13 +32,13 @@ MODELS = {
     ),
     "blaze_face_short_range.tflite": (
         f"{MODEL_BASE}/face_detector/blaze_face_short_range/float16/1/blaze_face_short_range.tflite",
-        229_714,
-        "bbff11cebd1eb27a1e004cae0b0e63ec8c551cbf34a4451148b4908b8db3eca8",
+        229_746,
+        "b4578f35940bf5a1a655214a1cce5cab13eba73c1297cd78e1a04c2380b0152f",
     ),
     "blaze_face_full_range.tflite": (
         f"{MODEL_BASE}/face_detector/blaze_face_full_range/float16/1/blaze_face_full_range.tflite",
-        676_746,
-        "2c3728e6da56f21e21a320433396fb06d40d9088f2247c05e5635a688d45dfe1",
+        1_083_786,
+        "3698b18f063835bc609069ef052228fbe86d9c9a6dc8dcb7c7c2d69aed2b181b",
     ),
 }
 
