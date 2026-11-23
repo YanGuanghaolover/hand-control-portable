@@ -14,6 +14,11 @@ import sys
 
 import numpy as np
 
+# CI logs on Windows are redirected and may default to cp1252; force UTF-8
+# so Chinese labels can be printed without crashing.
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import draw as D                     # noqa: E402
