@@ -1,3 +1,7 @@
+# Downloaded MediaPipe model binaries (run setup.bat or download_models.py)
+models/*.task
+models/*.tflite
+
 # Local environments and Python caches
 .venv/
 .venv-*/
